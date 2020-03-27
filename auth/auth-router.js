@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const secrets = require("../config/secrets");
 const auth = require("./authenticate-middleware");
 
-const users = require("../jokes/jokesModel");
+const users = require("../jokes/jokes-model");
 
 const router = require("express").Router();
 
